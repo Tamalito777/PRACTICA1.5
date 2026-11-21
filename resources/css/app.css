@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222222;
+}
+
+.ContainerNavbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 24px;
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+.ContainerText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ContainerText a:hover {
+    text-decoration: underline;
+}
+
+.ContainerText span {
+    font-size: 14px;
+    color: #d1d5db;
+}
+
+/* Encabezados y contenedores */
+.TituloPagina {
+    text-align: center;
+    margin: 24px 0 16px;
+}
+
+.ContainerHome,
+.ContainerAccion,
+.ContainerAlerta {
+    max-width: 1000px;
+    margin: 12px auto;
+    padding: 12px 16px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+}
+
+.ContainerAlerta {
+    background-color: #eef2ff;
+    border-color: #c7d2fe;
+    color: #1e3a8a;
+}
+
+/* Login */
+.ContainerLogin {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+.FormLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Tablas */
+.ContainerTabla {
+    max-width: 1000px;
+    margin: 16px auto 40px;
+    overflow-x: auto;
+}
+
+.Tabla1 {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.Tabla1 th,
+.Tabla1 td {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    text-align: left;
+}
+
+.Tabla1 th {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+/* Modales (<dialog>) y formularios */
+.ModalAbrir {
+    padding: 8px 14px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.ModalPersonalizar {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #ffffff;
+    min-width: 340px;
+    max-width: 480px;
+}
+
+.ModalAbierto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.btn-cerrar {
+    background: transparent;
+    border: 1px solid #9ca3af;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.ModalBody {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ModalTexto {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ModalInput {
+    padding: 8px 10px;
+    border: 1px solid #9ca3af;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.MensajeError {
+    color: #dc2626;
+}
+
+.acciones-modal {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.BotonGuardar {
+    padding: 8px 16px;
+    background-color: #16a34a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.BotonEliminarNo {
+    padding: 8px 14px;
+    background-color: #6b7280;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.BotonEliminarSi {
+    padding: 8px 14px;
+    background-color: #dc2626;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
