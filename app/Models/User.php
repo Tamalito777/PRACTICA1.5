@@ -49,14 +49,4 @@ class User extends Authenticatable
     {
         return $this->hasMany(Reservacion::class, 'user_id', 'id');
     }
-
-    public function esAdministrador(): bool
-    {
-        return $this->rol === 'administrador';
-    }
-
-    public function esEstudiante(): bool
-    {
-        return $this->rol === 'estudiante';
-    }
 }

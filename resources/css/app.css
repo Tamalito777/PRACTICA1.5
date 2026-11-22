@@ -34,7 +34,6 @@ body {
     color: #d1d5db;
 }
 
-/* Encabezados y contenedores */
 .TituloPagina {
     text-align: center;
     margin: 24px 0 16px;
@@ -57,7 +56,6 @@ body {
     color: #1e3a8a;
 }
 
-/* Login */
 .ContainerLogin {
     max-width: 400px;
     margin: 60px auto;
@@ -73,7 +71,6 @@ body {
     gap: 12px;
 }
 
-/* Tablas */
 .ContainerTabla {
     max-width: 1000px;
     margin: 16px auto 40px;
@@ -98,7 +95,6 @@ body {
     color: #ffffff;
 }
 
-/* Modales (<dialog>) y formularios */
 .ModalAbrir {
     padding: 8px 14px;
     background-color: #2563eb;
